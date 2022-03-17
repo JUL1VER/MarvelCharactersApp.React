@@ -3,6 +3,7 @@ import Spinner from '../spinner/Spinner';
 import ErrorMessage from '../errorMessage/ErrorMessage';
 import MarvelService from '../../services/MarvelService';
 import './charList.scss';
+import PropTypes from "prop-types";
 
 class CharList extends Component {
 
@@ -105,6 +106,10 @@ class CharList extends Component {
             </div>
         )
     }
+}
+
+CharList.propTypes = {
+    onCharSelected: PropTypes.func
 }
 
 export default CharList;
