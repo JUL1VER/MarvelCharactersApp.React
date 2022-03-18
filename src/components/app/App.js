@@ -4,7 +4,6 @@ import RandomChar from "../randomChar/RandomChar";
 import CharList from "../charList/CharList";
 import CharInfo from "../charInfo/CharInfo";
 import ErrorBoundary from "../errorBoundary/ErrorBoundary";
-import PropTypes from "prop-types";
 
 import decoration from '../../resources/img/vision.png';
 
@@ -40,10 +39,6 @@ class App extends Component {
             </div>
         )
     }
-}
-
-CharList.propTypes = {
-    onCharSelected: PropTypes.func
 }
 
 export default App;
