@@ -73,7 +73,7 @@ const CharList = (props) => {
                 </li>
             )
         });
-        // А эта конструкция вынесена для центровки спиннера/ошибки
+        
         return (
             <ul className="char__grid">
                 {items}
