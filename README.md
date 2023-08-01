@@ -10,7 +10,6 @@ Marvel Universe Explorer is a React-based web application that allows users to e
 - [Usage](#usage)
 - [API Key](#api-key)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
